@@ -75,7 +75,7 @@ func main() {
 }
 
 func romanToArabic(roman string) (int, error) {
-	values := map[rune]int{'I': 1, 'V': 5, 'X': 100}
+	values := map[rune]int{'I': 1, 'V': 5, 'X': 10}
 
 	var result int
 	var prevValue int
